@@ -8,7 +8,7 @@ This is the frontend of a law firm website having a chatbot on landing page to c
 ### Setup Locally
 **1.** Clone the project
 ```bash
-git clone https://github.com/MM-WA/automatedLawFirmIntake-client/tree/main
+git clone https://github.com/MM-WA/automatedLawFirmIntake-client.git
 ```
 **2.** Move to the project directory
 ```bash
