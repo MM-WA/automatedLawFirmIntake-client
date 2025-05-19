@@ -8,7 +8,7 @@ function ChatBotIndex() {
                       - Email  
                       - Phone Number (auto-format phone to +1 (XXX) XXX-XXXX)
                       - City/State  
-                      - Case Type (1. Car Accident, 2. Employment Dispute, 3. Criminal Defense, 4. Immigration Law, 5. Personal Injury, 6. Business Formation & Disputes etc.)
+                      - Case Type (Car Accident, Employment Dispute, Criminal Defense, Immigration Law, Personal Injury, Business Formation & Disputes or something else)
                       - Incident Date  
                       - Brief description of what happened  
                       - Preferred contact time
@@ -124,7 +124,7 @@ function ChatBotIndex() {
   };
 
   return (
-    <div className="absolute bottom-25 right-10 bg-white text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
+    <div className="absolute bottom-10 right-10 bg-white text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
       <h3 className="text-xl font-semibold mb-2">Chat with us</h3>
 
       <div className="h-[300px] overflow-y-auto border rounded p-2 mb-2">

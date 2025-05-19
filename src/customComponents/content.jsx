@@ -16,20 +16,20 @@ function Content() {
       </div>
 
       <p className="text-black w-[40%] mt-8 text-lg">
-        IngridAI simplifies the process of seeking legal assistance. Whether
-        you're dealing with personal injury, family law, employment disputes, or
-        other legal matters, our AI-powered assistant guides you through a few
-        quick questions to ensure your case reaches the right lawyer swiftly and
-        securely.
+        Ingrid is an AI assistant that handles client intake on law firm
+        websites:
       </p>
-      <ul className="mt-5 list-disc text-lg text-black">
-        <li>24/7 Availability: Get started now, no waiting for business hours.</li>
-        <li>Secure & Confidential: Your data is encrypted end-to-end and GDPR/CIPP-US compliant.</li>
-        <li>Effortless Process: Answer simple questions, and we'll handle the rest.</li>
-        <li>Expert Matching: Your details are sent directly to vetted legal professionals.</li>
+      <ul className="mt-3 list-disc text-lg text-black">
+        <li>Responds immediately, 24/7</li>
+        <li>Asks tailored questions for your practice areas</li>
+        <li>Collects documents confidentially</li>
+        <li>Fills out your intake forms</li>
+        <li>Delivers complete intake packages to your inbox</li>
       </ul>
 
-      <p className="mt-5 text-xl text-[#1E3A8A]">Ready to begin? Click 'Start Now' below. Help is just a few steps away.</p>
+      <p className="mt-5 text-xl text-[#1E3A8A]">
+        Ready to begin? Click 'Start Now' below. Help is just a few steps away.
+      </p>
 
       <Button className="bg-[#1E3A8A] text-white mt-10 mb-15 p-7 hover:cursor-pointer hover:bg-[#2C4DB0]">
         Start Now <FaArrowRight />
