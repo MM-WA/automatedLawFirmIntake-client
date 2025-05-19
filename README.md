@@ -1,6 +1,6 @@
 ## Automated Law Firm Intake - Frontend
 
-This is the frontend of a law firm website having a chatbot on landing page to collect initial information from clients and send that information to the lawyer.   
+This is the frontend of a law firm website having a chatbot on landing page to collect initial information from clients and send that information to the lawyers automatically.   
 
 ### Features  
 - Helps Law firm to intake new client 
