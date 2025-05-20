@@ -30,7 +30,6 @@ function ChatBotIndex() {
 
   useEffect(() => {
     async function sendMail() {
-      console.log(infoObject)
       try {
         if (infoObject) {
           const res = await fetch("http://localhost:8000/api/v1/gpt/sendMail", {
@@ -124,7 +123,7 @@ function ChatBotIndex() {
   };
 
   return (
-    <div className="absolute bottom-10 right-10 bg-white text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
+    <div className="absolute bottom-25 right-10 bg-white text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
       <h3 className="text-xl font-semibold mb-2">Chat with us</h3>
 
       <div className="h-[300px] overflow-y-auto border rounded p-2 mb-2">
