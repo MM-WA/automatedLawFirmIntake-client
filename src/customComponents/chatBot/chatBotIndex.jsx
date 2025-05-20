@@ -32,7 +32,7 @@ function ChatBotIndex() {
     async function sendMail() {
       try {
         if (infoObject) {
-          const res = await fetch("http://localhost:8000/api/v1/gpt/sendMail", {
+          const res = await fetch(`${process.env.SERVER_BASE_URL}/api/v1/gpt/sendMail`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -72,7 +72,7 @@ function ChatBotIndex() {
     setIsLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/api/v1/gpt/chat", {
+      const res = await fetch(`${process.env.SERVER_BASE_URL}/api/v1/gpt/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
