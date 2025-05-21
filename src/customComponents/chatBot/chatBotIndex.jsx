@@ -1,3 +1,4 @@
+const baseUrl = import.meta.env.VITE_SERVER_BASE_URL;
 import { useEffect, useState } from "react";
 import { afterHourOrWeekend } from "./utils";
 
@@ -32,7 +33,7 @@ function ChatBotIndex() {
     async function sendMail() {
       try {
         if (infoObject) {
-          const res = await fetch(`${process.env.SERVER_BASE_URL}/api/v1/gpt/sendMail`, {
+          const res = await fetch(`${baseUrl}/api/v1/gpt/sendMail`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -72,7 +73,7 @@ function ChatBotIndex() {
     setIsLoading(true);
 
     try {
-      const res = await fetch(`${process.env.SERVER_BASE_URL}/api/v1/gpt/chat`, {
+      const res = await fetch(`${baseUrl}/api/v1/gpt/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
