@@ -8,15 +8,15 @@ function Content() {
   return (
     <div className="relative top-40 pl-20">
       <div>
-        <span className="text-8xl font-semibold text-[#1E3A8A]">IngridAI</span>
+        <span className="text-8xl font-semibold text-[#1E3A8A]">LegalAI</span>
         <br />
         <span className="text-6xl font-serif font-normal text-[#1E3A8A]">
-          Your 24/7 Legal Intake Assistant!
+          Always Here to Help You!
         </span>
       </div>
 
       <p className="text-black w-[40%] mt-8 text-lg">
-        Ingrid is an AI assistant that handles client intake on law firm
+        I handle client intake on law firm
         websites:
       </p>
       <ul className="mt-3 list-disc text-lg text-black">
@@ -26,10 +26,6 @@ function Content() {
         <li>Fills out your intake forms</li>
         <li>Delivers complete intake packages to your inbox</li>
       </ul>
-
-      <p className="mt-5 text-xl text-[#1E3A8A]">
-        Ready to begin? Click 'Start Now' below. Help is just a few steps away.
-      </p>
 
       <Button className="bg-[#1E3A8A] text-white mt-10 mb-15 p-7 hover:cursor-pointer hover:bg-[#2C4DB0]">
         Start Now <FaArrowRight />

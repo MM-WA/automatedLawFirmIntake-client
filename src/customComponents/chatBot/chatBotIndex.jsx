@@ -7,7 +7,7 @@ const ChatBotIndex = () => {
     {
       role: "assistant",
       content:
-        "Hi! I'm IngridAI's virtual assistant. Let's get started. What's your name?",
+        "Hi! I'm LegalAI virtual assistant. Let's get started. What's your name?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -48,8 +48,8 @@ const ChatBotIndex = () => {
   };
 
   return (
-    <div className="absolute bottom-25 lg:bottom-35 right-10 bg-white text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
-      <h3 className="text-xl font-semibold mb-2">Chat with us</h3>
+    <div className="absolute bottom-25 lg:bottom-5 right-10 bg-[#1E3A8A] text-black rounded-lg shadow-xl w-[300px] h-[400px] p-4 z-50">
+      <h3 className="text-xl font-semibold mb-2 text-white">Chat with us</h3>
 
       <div className="h-[300px] overflow-y-auto border rounded p-2 mb-2">
         <div className="flex-1 overflow-y-auto border rounded p-2 space-y-2 mb-2 text-sm">
@@ -73,7 +73,7 @@ const ChatBotIndex = () => {
       <input
         type="text"
         placeholder="Type your message..."
-        className="w-full border rounded px-2 py-1"
+        className="w-full border rounded px-2 py-1 bg-white"
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={handleKeyPress}
