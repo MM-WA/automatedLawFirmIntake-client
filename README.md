@@ -1,4 +1,5 @@
-## Automated Law Firm Intake - Frontend
+## Automated Law Firm Intake - Frontend  
+[![Backend](https://img.shields.io/badge/Backend_Repo_Link-%235C5C5C)](https://github.com/MM-WA/automatedLawFirmIntake-server)
 
 This is the frontend of a law firm website having a chatbot on landing page to collect initial information from clients and send that information to the lawyers automatically through email.  
 
@@ -20,6 +21,13 @@ cd automatedLawFirmIntake-client
 ```bash
 npm install
 ```
+
+### Configuration  
+Before running the project create `.env` in root directry and provide following keys  
+```env
+VITE_SERVER_BASE_URL = http://localhost:8000
+```
+
 
 ### Run the Server
 ```bash
