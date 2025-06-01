@@ -22,6 +22,13 @@ cd automatedLawFirmIntake-client
 npm install
 ```
 
+### Configuration  
+Before running the project create `.env` in root directry and provide following keys  
+```env
+VITE_SERVER_BASE_URL = http://localhost:8000
+```
+
+
 ### Run the Server
 ```bash
 npm run dev
